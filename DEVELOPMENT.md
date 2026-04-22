@@ -1,8 +1,23 @@
 # Development Guide
 
-## Getting Started
+## About This Repository
 
-This repository contains the documentation and demo website for Vibing, a voice input application.
+This repository contains the **documentation and marketing website** for Vibing, not the desktop application itself.
+
+**What's in this repo:**
+- Landing page and website (index.html)
+- Installation guides
+- Feature demonstrations
+- Documentation pages
+
+**What's NOT in this repo:**
+- The Vibing macOS/Windows desktop application source code
+- The backend server or API
+- The voice processing engine
+
+This is a static website hosted on GitHub Pages that provides information about the Vibing desktop app.
+
+## Getting Started
 
 ### Prerequisites
 

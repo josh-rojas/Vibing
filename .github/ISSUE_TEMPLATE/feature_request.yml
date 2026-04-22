@@ -1,12 +1,15 @@
-name: Feature Request
-description: Suggest an idea for this project
-title: "[Feature]: "
-labels: ["enhancement", "triage"]
+name: Website Feature Request
+description: Suggest an improvement for the Vibing website or documentation
+title: "[Website Feature]: "
+labels: ["enhancement", "triage", "website"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting a new feature!
+        Thanks for suggesting a new feature for the website!
+
+        **Note:** This is for suggestions about the **website or documentation only**.
+        For feature requests for the Vibing desktop application, please use the in-app feedback.
 
   - type: textarea
     id: problem

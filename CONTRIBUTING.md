@@ -1,6 +1,16 @@
-# Contributing to Vibing
+# Contributing to Vibing Website
 
-Thank you for your interest in contributing to Vibing! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to the Vibing website! This repository contains the **documentation and landing page website** for Vibing, a voice input desktop application for macOS and Windows.
+
+> **Note:** This repository contains the marketing website and documentation. For issues with the Vibing desktop application itself, please report them through the app or contact support.
+
+## About This Repository
+
+This is the source code for the website hosted at [vibingjustspeakit.github.io/Vibing](https://vibingjustspeakit.github.io/Vibing/). It includes:
+- Landing page (index.html)
+- Installation guides
+- Feature demonstrations
+- Documentation
 
 ## Code of Conduct
 
@@ -8,25 +18,25 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 ## How to Contribute
 
-### Reporting Bugs
+### Reporting Website Issues
 
 - Use the bug report template when creating an issue
-- Include detailed steps to reproduce the problem
-- Specify your platform (macOS/Windows) and version
-- Attach relevant logs or screenshots
+- Specify which page has the issue
+- Include browser and OS information
+- Attach screenshots if applicable
 
-### Suggesting Features
+### Suggesting Website Improvements
 
 - Use the feature request template
-- Clearly describe the problem you're trying to solve
-- Explain your proposed solution
+- Clearly describe the improvement
+- Explain how it benefits users
 - Consider alternative approaches
 
 ### Pull Requests
 
 1. **Fork the repository** and create your branch from `main`
 2. **Make your changes** following the style guidelines
-3. **Test your changes** thoroughly on the relevant platform(s)
+3. **Test your changes** on multiple browsers
 4. **Update documentation** if needed
 5. **Submit a pull request** using the PR template
 
@@ -107,18 +117,19 @@ Explain what changed and why, not how.
 
 Before submitting a PR:
 
-1. Test on the target platform(s)
-2. Validate HTML: `npm run validate`
-3. Check formatting: `npm run format:check`
-4. Verify all links work
-5. Test responsive design at various screen sizes
+1. Test on multiple browsers (Chrome, Firefox, Safari)
+2. Test on mobile devices
+3. Validate HTML: `npm run validate`
+4. Check formatting: `npm run format:check`
+5. Verify all links work
+6. Test responsive design at various screen sizes
 
 ## Documentation
 
-- Update README.md if adding features
-- Add comments for complex code
-- Update installation guides if needed
+- Update README.md if adding features or changing content
+- Ensure installation guides are accurate
 - Include screenshots for UI changes
+- Keep documentation in sync with website content
 
 ## Questions?
 
@@ -127,4 +138,4 @@ If you have questions, feel free to:
 - Ask in your pull request
 - Check existing documentation
 
-Thank you for contributing to Vibing! 🎤
+Thank you for contributing to the Vibing website! 🎤
