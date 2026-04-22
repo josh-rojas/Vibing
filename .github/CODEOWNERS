@@ -1,0 +1,22 @@
+# Code Owners for Vibing repository
+# These owners will be requested for review when someone opens a pull request
+
+# Default owners for everything in the repo
+* @VibingJustSpeakIt
+
+# HTML pages and website content
+*.html @VibingJustSpeakIt
+*.css @VibingJustSpeakIt
+
+# Documentation
+*.md @VibingJustSpeakIt
+/CONTRIBUTING.md @VibingJustSpeakIt
+/DEVELOPMENT.md @VibingJustSpeakIt
+
+# Configuration files
+package.json @VibingJustSpeakIt
+.github/ @VibingJustSpeakIt
+
+# Assets
+/src/ @VibingJustSpeakIt
+/images/ @VibingJustSpeakIt

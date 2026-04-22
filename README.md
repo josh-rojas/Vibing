@@ -56,3 +56,29 @@ Step-by-step setup instructions for macOS — accessibility, screen recording & 
 **Data processing:** To provide more accurate transcription, context-aware rewriting, and translation results, Vibing sends your audio and contextual information (such as screenshots, text in the active input field, and the current application name) to our servers. This data is used solely to process your request and return results. It is not retained after processing is complete.
 
 **Privacy commitment:** Your data is never stored or used for model training, analytics, or any other purpose beyond fulfilling your immediate request.
+
+## Development
+
+Want to contribute? Check out our [Contributing Guidelines](CONTRIBUTING.md) and [Development Guide](DEVELOPMENT.md).
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Validate and format
+npm run validate
+npm run format
+```
+
+## Community
+
+- [Report Issues](https://github.com/VibingJustSpeakIt/Vibing/issues)
+- [Request Features](https://github.com/VibingJustSpeakIt/Vibing/issues/new?template=feature_request.yml)
+- [Discussions](https://github.com/VibingJustSpeakIt/Vibing/discussions)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
